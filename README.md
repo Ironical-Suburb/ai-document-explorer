@@ -2,7 +2,7 @@
 
 This is a simple chat bot application that uses OpenAI GPT-3.5 to generate responses to user questions. It supports transcribing audio files and PDF documents for better accuracy in generating responses.
 
-**Dependencies**
+**Dependencies :** 
 
 This application requires the following dependencies:
 
@@ -11,7 +11,7 @@ Pillow (for image processing)
 openai (for using the OpenAI GPT-3.5 API)
 PyPDF2 (for reading PDF documents)
 
-**Usage**
+**Usage :** 
 
 Set up your OpenAI API key in the code by replacing 'YOUR_OPENAI_API_KEY' with your actual API key.
 
@@ -27,11 +27,11 @@ Use GPT model: Enter your question in the text box and press Enter or click the 
 
 The bot will generate a response and display it in the conversation panel.
 
-**Contributing**
+**Contributing :**
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
 
-**Required Dependencies:**
+**Required Dependencies :**
 
 tkinter
 Pillow
