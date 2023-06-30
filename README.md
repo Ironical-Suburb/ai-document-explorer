@@ -1,42 +1,40 @@
-**Tech Chat Bot**
+**AI Document Explorer**
 
-This is a simple chat bot application that uses OpenAI GPT-3.5 to generate responses to user questions. It supports transcribing audio files and PDF documents for better accuracy in generating responses.
+The AI Document Explorer is a Python program that leverages AI-powered chatbot technology to help users explore and extract information from various types of documents within a specified folder. It provides a user-friendly interface for interacting with the chatbot and retrieving insights from the documents.
 
-**Dependencies :** 
+**Features**
 
-This application requires the following dependencies:
-
-tkinter (for GUI)
-Pillow (for image processing)
-openai (for using the OpenAI GPT-3.5 API)
-PyPDF2 (for reading PDF documents)
-
-**Usage :** 
-
-Set up your OpenAI API key in the code by replacing 'YOUR_OPENAI_API_KEY' with your actual API key.
-
-Run the script and a GUI window will open.
-
-Select an option:
-
-Transcribe an audio file: Click the "Convert Audio" button and choose an audio file in the file dialog.
-
-Transcribe a PDF: Click the "Convert PDF" button and choose a PDF file in the file dialog.
-
-Use GPT model: Enter your question in the text box and press Enter or click the arrow button to submit the question.
-
-The bot will generate a response and display it in the conversation panel.
-
-**Contributing :**
-
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
-
-**Required Dependencies :**
-
-tkinter
-Pillow
-openai
+Supports multiple file types: PDFs, Excel spreadsheets, CSV files, and images.
+Extracts text from documents using appropriate techniques.
+Allows users to ask questions about the documents.
+Generates intelligent responses using OpenAI's GPT-3.5 model.
+Maintains a transcript of the conversation for reference.
+Supports switching between different chat sessions.
+Provides a visual interface for ease of use.
+Requirements
+Python 3.6 or higher
 PyPDF2
-Please make sure to install the required dependencies before running the code.
+pandas
+openai
+Tkinter
+PIL
 
-I hope this helps! Let me know if you have any further questions.
+**Getting Started**
+
+Clone the repository: git clone https://github.com/yourusername/ai-document-explorer.git
+Install the required dependencies: pip install -r requirements.txt
+Set up OpenAI API credentials by following the instructions in the OpenAI API documentation.
+Run the program: python main.py
+
+**Usage**
+
+Open the AI Document Explorer.
+Select a folder containing the documents you want to explore.
+Ask questions related to the documents in the chat interface.
+The chatbot will provide intelligent responses based on the extracted information.
+Contributing
+Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request.
+
+**License**
+
+This project is licensed under the MIT License. Feel free to use and modify the code for your purposes.
