@@ -21,7 +21,7 @@ PIL
 
 **Getting Started**
 
-Clone the repository: git clone https://github.com/yourusername/ai-document-explorer.git
+Clone the repository: git clone [https://github.com/yourusername/ai-document-explorer.git](https://github.com/Ironical-Suburb/ai-document-explorer)
 Install the required dependencies: pip install -r requirements.txt
 Set up OpenAI API credentials by following the instructions in the OpenAI API documentation.
 Run the program: python main.py
