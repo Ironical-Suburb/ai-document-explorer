@@ -18,23 +18,3 @@ pandas
 openai
 Tkinter
 PIL
-
-**Getting Started**
-
-Clone the repository: git clone (https://github.com/Ironical-Suburb/ai-document-explorer)
-Install the required dependencies: pip install -r requirements.txt
-Set up OpenAI API credentials by following the instructions in the OpenAI API documentation.
-Run the program: python main.py
-
-**Usage**
-
-Open the AI Document Explorer.
-Select a folder containing the documents you want to explore.
-Ask questions related to the documents in the chat interface.
-The chatbot will provide intelligent responses based on the extracted information.
-Contributing
-Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request.
-
-**License**
-
-This project is licensed under the MIT License. Feel free to use and modify the code for your purposes.
